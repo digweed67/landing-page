@@ -16,16 +16,15 @@ body {
   color: white;
   display: flex;
   justify-content: space-around;
-  
+  align-items: center;
   
 }
 
 .nav-bar p {
   font-weight: 500;
-  font-size: 20px;
-  display: flex;
-  justify-content: baseline;
-  
+  font-size: 24px;
+  color: #F9FAF8;
+
 }
 
 ul {
@@ -64,12 +63,14 @@ ul a {
 
 h1 {
   font-weight: 500;
-  font-size: 50px;
+  font-size: 48px;
   margin-bottom: 0;
+  color: #F9FAF8;
 }
 
 .hero-text p {
   font-weight: 100;
+  font-size: 18px;
   margin-top: 0;
   font-size: 18px;
 }
@@ -78,13 +79,15 @@ h1 {
   border: none;
   border-radius: 8px;
   padding: 8px 30px;
-  background: blue;
+  background: #3882f6;
   color: white;
   font-weight: bold;
 }
 
 h2 {
   text-align: center;
+  font-size: 36px;
+  color: #1F2937;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -106,14 +109,15 @@ h2 {
 }
 
 .quote {
-  background-color: #e5e7eb;
+  background-color: #E5E7EB;
   
 }
 
 .quote-text {
-  font-weight: 200;
-  font-size: 40px;
+  font-weight: 100;
+  font-size: 36px;
   font-style: italic;
+  color: #1F2937;
   text-align: justify;
   margin-top: 130px;
   margin-left: 220px;
@@ -162,4 +166,10 @@ h2 {
   
 }
 
+footer {
+  background-color: grey;
+  text-align: center;
+  
+
+}
 
