@@ -83,5 +83,52 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-bottom: 80px;
+  gap: 80px;
+  
+}
+
+.info img {
+  height: 150px;
+  width: 180px;
+  text-align: center;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  
+}
+
+.quote-text {
+  font-weight: 200;
+  font-size: 40px;
+  font-style: italic;
+  text-align: justify;
+  margin-top: 130px;
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-bottom: 0px;
+}
+
+.quote-author {
+  text-align: right;
+  margin-right: 220px;
+  margin-bottom: 130px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
 
 
